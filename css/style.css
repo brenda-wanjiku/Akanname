@@ -40,6 +40,7 @@ input {
     float: left;
     float: block;
 }
-img {
-    width: 100%;
+
+h1 {
+    background-image: url(../back-img/background.jpeg);
 }
