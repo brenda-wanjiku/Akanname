@@ -40,4 +40,6 @@ input {
     float: left;
     float: block;
 }
-
+img {
+    width: 100%;
+}
