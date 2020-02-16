@@ -27,4 +27,6 @@ h2 {
     height: 200%;
     float: center;
 }
-.formgroup
+.form-group {
+    float: left;
+}
