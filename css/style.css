@@ -13,3 +13,12 @@ h2 {
     margin-left: auto;
     text-align: 100px;
 }
+.descriptionbox p{
+    font-family: 'Courier Prime', monospace;
+    font-size: 30px;
+}
+
+.descriptionbox h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
