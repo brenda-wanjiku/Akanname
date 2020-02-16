@@ -16,7 +16,7 @@ function myFunction() {
    if (document.getElementById("male").value === "Male") {
         alert("Your Akan name is " + maleName[n] + " was born on " + days[n]);
     }
-    else (document.getElementById("female").value === "Female") {
+    else (document.getElementById("female").value === "Female") 
         alert("Your Akan name is " + femaleName[n] + " was born on " + days[n]); 
     }
 
@@ -28,4 +28,3 @@ function myFunction() {
     function uncheck() {
         document.getElementById("female").checked = false;
     }   
-} 
