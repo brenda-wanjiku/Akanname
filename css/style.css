@@ -40,7 +40,6 @@ input {
     float: left;
     float: block;
 }
-
-h1 {
-    background-image: url(../back-img/background.jpeg);
+body {
+    background-image: url(../back-img/red.jpeg);
 }

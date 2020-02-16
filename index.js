@@ -16,15 +16,11 @@ function myFunction() {
    if (document.getElementById("male").value === "Male") {
         alert("Your Akan name is " + maleName[n] + " was born on " + days[n]);
     }
-    else (document.getElementById("female").value === "Female") 
+    else if (document.getElementById("female").value === "Female") {
         alert("Your Akan name is " + femaleName[n] + " was born on " + days[n]); 
     }
-
-
-    function check() {
-        document.getElementById("female").checked = true;
-    }
+    else {
+        alert("Invalid");
         
-    function uncheck() {
-        document.getElementById("female").checked = false;
-    }   
+    }
+}
