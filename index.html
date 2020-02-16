@@ -13,67 +13,72 @@
 
 <body>
     <h1>The Akan</h1>
+
     <div class="descriptionbox">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="jumbotron">
                         <h2>Wanna find the Akan in you?</h2>
                         <p>In Ghana, children are given their first name based on the day of the week they were born.
                             These are
                             called Akan names. They are gender-based. The tradition has withstood the changing times and
                             has been upheld by
-                            the people.You can find out your name by simply inputting your birth date and gender. Enjoy!
+                            the people.You can find out your name by simply inputting your birth date and gender.
+                            Enjoy:)
                         </p>
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
 
-    <p id="ki"></p>
-    <form id="form" action="">
-        <div class="jumbotron">
-            <div id="error"></div>
+        <p id="ki"></p>
+        <form id="form" action="">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="jumbotron">
+                        <div id="error"></div>
 
-            <div class="form-group">
+                        <div class="form-group">
 
-                <label for="date">Day</label>
-                <input type="number" class="form-label" id="birth-day" placeholder="DD">
-            </div>
+                            <label for="date">Day</label>
+                            <input type="number" class="form-label" id="birth-day" placeholder="DD">
+                        </div>
 
-            <div class="form-group">
-                <label for="month">Month</label>
-                <input type="number" class="form-label" id="birth-month" placeholder="MM">
-            </div>
+                        <div class="form-group">
+                            <label for="month">Month</label>
+                            <input type="number" class="form-label" id="birth-month" placeholder="MM">
+                        </div>
 
-            <div class="form-group">
-                <label for="year">Year</label>
-                <input type="text" class="form-label" id="year" placeholder="YY">
-            </div>
+                        <div class="form-group">
+                            <label for="year">Year</label>
+                            <input type="text" class="form-label" id="year" placeholder="YY">
+                        </div>
 
 
 
-            <div action="">
-                <div class="Gender" required>
-                    <p>Please select your gender:</p>
-                    <input type="checkbox" id="female" name="gender" value="Female">
-                    <label for="Female"> Female</label><br>
-                    <input type="checkbox" id="male" name="gender" value="Male">
-                    <label for="Male"> Male</label><br>
+                        <div action="">
+                            <div class="Gender" required>
+                                <p>Please select your gender:</p>
+                                <input type="checkbox" id="female" name="gender" value="Female">
+                                <label for="Female"> Female</label><br>
+                                <input type="checkbox" id="male" name="gender" value="Male">
+                                <label for="Male"> Male</label><br>
 
+                            </div>
+                        </div>
+                        <div class="col-sm-10">
+                            <button type="submit" onclick="myFunction()">Submit</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-10">
-                <button type="submit" onclick="myFunction()">Submit</button>
-            </div>
-
-        </div>
-    </form>
+        </form>
 
 
 
 
-    <script src="index.js"> </script>
+        <script src="index.js"> </script>
 </body>
 
 </html>

@@ -1,7 +1,6 @@
 h1 {
     font-family:'Special Elite', cursive; 
     font-size: 150px;
-    position: center;
     text-align: center;
 }
 h2 {
@@ -22,3 +21,10 @@ h2 {
     font-size: 40px;
     font-weight: bolder;
 }
+
+.form {
+    width: 200%;
+    height: 200%;
+    float: center;
+}
+.formgroup
