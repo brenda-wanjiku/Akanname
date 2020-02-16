@@ -4,20 +4,21 @@
 <head>
     <title>Akan Naming System</title>
     <link href="css/bootstrap1.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
-    <h1>Hmm..find your Akan name?</h1>
+    <h1>The Akan</h1>
     <div class="jumbotron">
-        <h2>The Akan</h2>
+        <h2>Want to know your Akan name?</h2>
         <p>In Ghana, children are given their first name based on the day of the week they were born. These are called
             Akan names. They are gender-based. The tradition has withstood the changing times and has been uphold by the
             people. <br>
             You can find out your name by simply inputting your birth date and gender. Enjoy!</p>
 
     </div>
-
+    <p id="ki"></p>
     <form action="">
         <div class="jumbotron">
             <div id="error"></div>
@@ -43,9 +44,9 @@
             <div action="">
                 <div class="Gender">
                     <p>Please select your gender:</p>
-                    <input type="checkbox" id="female" name="gender" value="Female">
+                    <input type="checkbox" id="female" name="gender" value="Female" required>
                     <label for="Female"> Female</label><br>
-                    <input type="checkbox" id="male" name="gender" value="Male">
+                    <input type="checkbox" id="male" name="gender" value="Male" required>
                     <label for="Male"> Male</label><br>
 
                 </div>
@@ -53,7 +54,7 @@
             <div class="col-sm-10">
                 <button type="button" onclick="myFunction()" class="btn btn primary">Submit</button>
             </div>
-            
+
         </div>
     </form>
 
