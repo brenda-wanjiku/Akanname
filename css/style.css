@@ -29,4 +29,11 @@ h2 {
 }
 .form-group {
     float: left;
+    float: block;
+}
+.Gender {
+    float: left;
+    text-align: center;
+    margin-block-end: auto;
+
 }
