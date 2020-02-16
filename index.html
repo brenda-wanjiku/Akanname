@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
-  
+
 </head>
 
 <body>
@@ -32,41 +32,43 @@
         </div>
 
         <p id="ki"></p>
-        <form id="form" action="">
-            <div class="jumbotron">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div id="error"></div>
-                        <p>Enter your birthday:</p>
-                        <div class="form-group">
-                            <label for="date"></label>
-                            <input type="number" class="form-label" id="birth-day" placeholder="DD">
-                        </div>
-                        <div class="form-group">
-                            <label for="month"></label>
-                            <input type="number" class="form-label" id="birth-month" placeholder="MM">
-                        </div>
-                        <div class="form-group">
-                            <label for="year"></label>
-                            <input type="text" class="form-label" id="year" placeholder="YY">
-                        </div>
-                    </div>
-
-
-
-                    <div action="">
-                        <div class="row">
-                            <div class="col-sm-10">
-                                <div class="Gender" >
-                                    <p>Please select your gender:</p>
-                                    <input type="checkbox"  id="female" name="gender" value="Female">
-                                    <label for="Female"> Female</label><br>
-                                    <input type="checkbox" id="male" name="gender" value="Male">
-                                    <label for="Male"> Male</label><br>
-                                </div>
+        <form action="">
+            <div class="form">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div id="error"></div>
+                            <p>Enter your birthday:</p>
+                            <div class="form-group">
+                                <label for="date"></label>
+                                <input type="number" class="form-label" id="birth-day" placeholder="DD">
                             </div>
-                            <div class="col-sm-10">
-                                <button type="submit" onclick="myFunction()">Submit</button>
+                            <div class="form-group">
+                                <label for="month"></label>
+                                <input type="number" class="form-label" id="birth-month" placeholder="MM">
+                            </div>
+                            <div class="form-group">
+                                <label for="year"></label>
+                                <input type="text" class="form-label" id="year" placeholder="YY">
+                            </div>
+                        </div>
+
+
+
+                        <div action="">
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <div class="Gender">
+                                        <p>Please select your gender:</p>
+                                        <input type="checkbox" id="female" name="gender" value="Female">
+                                        <label for="Female"> Female</label><br>
+                                        <input type="checkbox" id="male" name="gender" value="Male">
+                                        <label for="Male"> Male</label><br>
+                                    </div>
+                                </div>
+                                <div class="col-sm-10">
+                                    <button type="submit" onclick="myFunction()">Submit</button>
+                                </div>
                             </div>
                         </div>
                     </div>

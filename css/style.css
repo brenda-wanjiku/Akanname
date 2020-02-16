@@ -2,6 +2,8 @@ h1 {
     font-family:'Special Elite', cursive; 
     font-size: 150px;
     text-align: center;
+    color: black;
+    margin: 20px;
 }
 h2 {
     font-family: 'Special Elite', cursive;
@@ -22,11 +24,6 @@ h2 {
     font-weight: bolder;
 }
 
-.form {
-    width: 200%;
-    height: 200%;
-    float: center;
-}
 .form-group {
     float: left;
     float: block;
@@ -42,4 +39,14 @@ input {
 }
 body {
     background-image: url(../back-img/red.jpeg);
+    color: white;
+}
+.jumbotron {
+    background-color: black
+}
+.form {
+    width: 90%;
+    height: 50%;
+    margin: 40px;
+    text-align: 100px;
 }
