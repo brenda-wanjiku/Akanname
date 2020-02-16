@@ -31,9 +31,13 @@ h2 {
     float: left;
     float: block;
 }
-.Gender {
-    float: left;
-    text-align: center;
-    margin-block-end: auto;
+.row .Gender {
+    float: center;
+    margin align: 30px;
 
+}  
+input {
+    float: left;
+    float: block;
 }
+
