@@ -8,19 +8,18 @@ function myFunction() {
     var MM = document.getElementById("birth-month").value; //get the element with id = "birth-month"
 
     var n = parseInt((((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7);
-
+  
     var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
     var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
-   if (document.getElementById("male").value === "Male") {
-        alert("Your Akan name is " + maleName[n] + " was born on " + days[n]);
+   if (document.getElementById("male").value === "male") {
+        alert("Your Akan name is " + maleName[n] + " you were born on " + days[n]);
     }
-    else if (document.getElementById("female").value === "Female") {
-        alert("Your Akan name is " + femaleName[n] + " was born on " + days[n]); 
+    else if (document.getElementById("female").value === "female") {
+        alert("Your Akan name is " + femaleName[n] + " you were born on " + days[n]); 
     }
     else {
-        alert("Invalid");
-        
+        alert("Invalid")      
     }
 }
