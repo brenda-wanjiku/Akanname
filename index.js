@@ -19,10 +19,10 @@ function myFunction() {
     var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
      
-   if (document.getElementById("female").value === "female") {
+   if (document.getElementById("female").checked) {
       alert("Your Akan name is " + femaleName[n] + " you were born on " + days[n])
    }
-     else if(document.getElementById("male").value === "male") {
+     else if(document.getElementById("male").checked) {
      alert("Your Akan name is " + maleName[n] + " you were born on " + days[n])
      }
      else {
