@@ -3,7 +3,7 @@
 
 <head>
     <title>Akan Naming System</title>
-    <link href="css/bootstrap1.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
@@ -31,14 +31,13 @@
         </div>
     </div>
 
-        <p id="ki"></p>
-    <form action="">
+    <form >
         <div class="form">
             <div class="jumbotron">
                 <div class="row">
                     <div class="col-md-8">
                         <div id="error"></div>
-                            <p>Enter your birthday:</p>
+                        <p>Enter your birthday:</p>
                         <div class="form-group">
                             <label for="date"></label>
                             <input type="number" class="form-label" id="birth-day" placeholder="DD">
@@ -53,22 +52,23 @@
                         </div>
                     </div>
 
-                        <div action="">
-                            <div class="row">
-                                <div class="col-sm-10">
-                                    <div class="Gender">
-                                        <p>Please select your gender:</p>
-                                        <input type="checkbox" id="female" name="gender" value="female">
-                                        <label for="Female"> Female</label><br>
-                                        <input type="checkbox" id="male" name="gender" value="male">
-                                        <label for="Male"> Male</label><br>
-                                    </div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <button type="submit" onclick="myFunction()" input="submit" >Submit</button>
+                    <div action="">
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <div class="Gender">
+                                    <p>Please select your gender:</p>
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <label for="Male"> Male</label><br>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label for="Female"> Female</label><br>
+                                    
                                 </div>
                             </div>
+                            <div class="col-sm-10">
+                                <button type="submit" onclick="myFunction()">Submit</button>
+                            </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
